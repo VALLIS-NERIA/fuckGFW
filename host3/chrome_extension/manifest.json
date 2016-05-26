@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+
+    "name": "Add to PAC",
+    "description": "This extension fucks GFW",
+    "version": "1.0",
+    
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_popup":"popup.html"
+    },
+    // "content_scripts": [
+    //     {
+    //         "matches": [
+    //             "http://*/"],
+    //             "js":[ "test.js" ],
+    //             "run_at":"document_start"
+    //     }
+    // ],
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "nativeMessaging",
+    //    {"fileSystem": ["write", "retainEntries", "directory"]},
+        "https://ajax.googleapis.com/"
+    ]
+
+}

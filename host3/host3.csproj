@@ -46,6 +46,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="chrome_extension\com.venn.pac.json" />
+    <None Include="chrome_extension\manifest.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chrome_extension\host3.exe" />
+    <Content Include="chrome_extension\icon.png" />
+    <Content Include="chrome_extension\js1.js" />
+    <Content Include="chrome_extension\js2.js" />
+    <Content Include="chrome_extension\metro-ui-light.css" />
+    <Content Include="chrome_extension\popup.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

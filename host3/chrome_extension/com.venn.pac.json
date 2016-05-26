@@ -1,0 +1,12 @@
+
+{
+  "name": "com.venn.pac",
+  "description": "Test Host",
+  "path": "C:\\Users\\C.Venn\\Desktop\\note\\pac\\host3.exe",
+//  "path":"notepad.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://kibjcidnhonjliohkpkhdibgndcbhfcp/",
+    "chrome-extension://gfjllogjickcfdaaobocefmejjjahnhm/"
+  ]
+}
